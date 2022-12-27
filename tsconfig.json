@@ -22,6 +22,7 @@
         },
         "allowJs": true,
         "outDir": "./dist",
+        "rootDir": "./src",
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "strict": false,
@@ -31,5 +32,8 @@
         "types": [
             "node"
         ]
-    }
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
 }

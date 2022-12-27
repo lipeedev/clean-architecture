@@ -11,7 +11,7 @@ export class PlayerViewModel {
       id: player.id,
       email: player.email,
       nickname: player.name,
-      createdAt: player.createdAt.toISOString()
+      createdAt: player.createdAt?.toISOString()
     }
   }
 };
